@@ -31,6 +31,10 @@ export default function Appbar() {
     setAnchorElNav(null);
   };
 
+  const handleLogo = () => {
+    navigate("/DrillsLibrary");
+  };
+
   // const handleCloseUserMenu = () => {
   //   setAnchorElUser(null);
   // };
@@ -43,7 +47,8 @@ export default function Appbar() {
             variant="h6"
             noWrap
             component="a"
-            href="/DrillsLibrary"
+            onClick={handleLogo}
+            // href="/DrillsLibrary"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
