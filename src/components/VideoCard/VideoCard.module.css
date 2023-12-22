@@ -1,0 +1,15 @@
+.container {
+  cursor: pointer;
+  max-width: 300px;
+}
+
+.thumbnail {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.locked {
+  /* cursor: not-allowed; */
+  /* opacity: 0.5; */
+}
